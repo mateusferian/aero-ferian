@@ -1,0 +1,417 @@
+:root {
+    --cor-primaria: #5E9ED6;
+    --cor-primaria-clara: #5E9ED6;
+    --cor-primaria-media: #3b72a3;
+    --cor-primaria-escura:#0A1E33;
+    --cor-primaria-escura-2: #1E475E;
+    --cor-branca: #FFF;
+    --cor-preta: #000; 
+}
+
+.conteudo_pagina {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.sessao_1-conteudo,
+.sessao_2-conteudo {
+    width: 400px;
+    height: 400px;
+}
+
+.cabecalho {
+    width: 920px;
+    height: 50px;
+    background-image: linear-gradient(to right, var(--cor-primaria), var(--cor-primaria-media));
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(185, 185, 185, 0.5);
+}
+
+
+.sessao_1,
+.sessao_2,
+.sessao_3_conteudo,
+.sessao_4,
+.sessao_5,
+.footer,
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho a {
+    text-decoration: none;
+}
+
+.sessao_1-imagem-item,
+.sessao_2-imagem-item,
+.sessao_3-cards-imagem-item {
+    width: 100%;
+    height: 100%;
+}
+
+.sessao_1-conteudo-botao-saiba-mais {
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sessao_1-conteudo-botao-planos {
+    background-image: linear-gradient(to right, var(--cor-primaria), var(--cor-primaria-clara));
+    text-decoration: none;
+    color: var(--cor-branca);
+    padding: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.sessao_1-conteudo-botao-planos:active,
+.sessao_1-conteudo-botao-planos:focus,
+.sessao_1-conteudo-botao-planos:hover {
+    background-image: linear-gradient(to right, var(--cor-primaria-escura), var(--cor-primaria-escura-2));
+    cursor: pointer;
+}
+
+.sessao_1-conteudo-botao-saiba-mais:active,
+.sessao_1-conteudo-botao-saiba-mais:focus,
+.sessao_1-conteudo-botao-saiba-mais:hover{
+    color: var(--cor-primaria);
+}
+
+.sessao_1,
+.sessao_2,
+.sessao_3,
+.sessao_4,
+.sessao_5,
+.footer {
+    margin-top: 40px;
+}
+
+.sessao_3-cards {
+    border: 1px solid var(--cor-primaria);
+    width: 300px;
+    height: 300px;
+}
+
+.sessao_3-cards-imagem {
+    height: 50%;
+    width: 100%;
+    
+}
+
+.sessao_3-cards-texto {
+    padding: 10px;
+}
+
+.sessao_4 {
+    justify-content: center;
+}
+
+.sessao_4-paginacao-item {
+    color: var(--cor-primaria);
+    
+}
+
+.sessao_4-paginacao-item:active,
+.sessao_4-paginacao-item:focus,
+.sessao_4-paginacao-item:hover {
+    color: var(--cor-primaria-escura);
+    cursor: pointer;
+}
+
+.sessao_4-paginacao {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sessao_1-texto-titulo,
+.sessao_1-texto-conteudo,
+.sessao_2-texto-titulo,
+.sessao_2-texto-conteudo,
+.sessao_3-texto-titulo,
+.sessao_3-texto-conteudo,
+.sessao_2-texto-conteudo-opcoes,
+.sessao_2-texto-sub-titulo,
+.sessao_3-cards-texto,
+.sessao_1-conteudo-botao-saiba-mais {
+    color: var(--cor-primaria-escura);
+}
+
+.sessao_3-cards {
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 0px 10px rgba(59, 59, 59, 0.3);
+}
+
+.sessao_3-cards:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.sessao_5 {
+    width: 740px;
+    height: 300px;
+    background-image: linear-gradient(to right, var(--cor-primaria), var(--cor-primaria-media));
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 30px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 10px rgba(59, 59, 59, 0.3);
+}
+
+.sessao_5_conteudo-texto {
+    width: 600px;
+    height: 200px;
+}
+
+
+.sessao_5_conteudo-imagem {
+    width: 500px;
+    height: 300px;
+    
+}
+
+.sessao_5_conteudo-imagem img {
+    width: 400px;
+    height: 400px;
+}
+
+.footer {
+    background-image: linear-gradient(to right, var(--cor-primaria), var(--cor-primaria-media));
+    width: 100%;
+    height: 300px;
+}
+
+.footer-conteudo-item-1,
+.footer-conteudo-item-4 {
+    display: table-column;
+    width: 250px;
+    height: 100%;
+}
+
+
+.footer-conteudo-item-2,
+.footer-conteudo-item-3 {
+    width: 150px;
+    height: 100%;
+    display: table-column;
+}
+
+.footer-conteudo-item-2 a,
+.footer-conteudo-item-2 a h4 {
+    text-decoration: none;
+    text-decoration-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-conteudo-item-2,
+.footer-conteudo-item-3,
+.sessao_5 h1 {
+    color: var(--cor-branca);
+}
+
+.creditos {
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(to right, var(--cor-primaria), var(--cor-primaria-media));
+    color: var(--cor-branca);
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    border-top: 1px solid var(--cor-primaria-media);
+}
+
+.creditos a {
+    color: var(--cor-primaria-escura);
+}
+
+.footer-conteudo-item-4-formulario-botao {
+    background-color: var(--cor-primaria-escura);
+    padding: 10px;
+    border: none;
+    color: var(--cor-branca);
+    cursor: pointer;
+}
+
+
+.footer-conteudo-item-4-formulario-botao:active,
+.footer-conteudo-item-4-formulario-botao:focus,
+.footer-conteudo-item-4-formulario-botao:hover,
+.cabecalho-botao-2:active,
+.cabecalho-botao-2:focus,
+.cabecalho-botao-2:hover {
+    background-color: var(--cor-primaria);
+    cursor: pointer;
+}
+
+.footer-conteudo-item-4-formulario-campo {
+    background-color: var(--cor-primaria-escura);
+    padding: 10px;
+    border: none;
+    color: var(--cor-branca);
+    margin-bottom: 10px;
+}
+
+.footer-conteudo-item-4-titulo
+.footer-conteudo-item-1-icones a
+{ 
+    color: var(--cor-branca);
+}
+
+.footer-conteudo-item-1-icones {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 0;
+}
+
+.footer_conteudo-icone-rede-social {
+    color: var(--cor-branca);
+}
+
+
+.footer-conteudo-item-1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho-botao-2 {
+    background-color: var(--cor-primaria-escura);
+    padding: 10px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: var(--cor-branca);
+    cursor: pointer;
+}
+
+.footer-conteudo-item-4-formulario-campo::placeholder {
+    color: var(--cor-branca);
+}
+
+.cabecalho-botao-1 {
+    padding: 10px;
+    background-color: var(--cor-primaria);
+    border: 0;
+    box-shadow: 0px 1px 1px var(--cor-primaria-escura);
+    padding-left: 30px;
+    padding-right: 30px;
+    color: var(--cor-primaria-escura);
+    cursor: pointer;
+}
+
+.cabecalho-botao-1:active,
+.cabecalho-botao-1:hover,
+.cabecalho-botao-1:focus{
+    cursor: pointer;
+    background-color: var(--cor-primaria-escura);
+    color: var(--cor-branca);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.sessao_5_conteudo-texto-item {
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+
+.sessao_5_conteudo-texto-item {
+    animation: pulsar 2s infinite alternate; 
+}
+
+
+.footer-conteudo-item-1-logo,
+.cabecalho h1 {
+    animation: mudarCor 9s infinite alternate;
+}
+
+/* 
+@keyframes piscar {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    } 
+}*/
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+/* 
+@keyframes deslizar {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(20px);
+    }
+} */
+
+@keyframes mudarCor {
+    0% {
+        color: var(--cor-branca);
+    }
+    50% {
+        color: var(--cor-primaria-escura);
+    }
+    100% {
+        color: var(--cor-branca);
+    }
+}
+
+.footer-conteudo-item-link,
+.cabecalho a{
+    color: var(--cor-branca);
+}
+
+.footer-conteudo-item-link:active,
+.footer-conteudo-item-link:focus,
+.footer-conteudo-item-link:hover,
+.cabecalho a:active,
+.cabecalho a:focus,
+.cabecalho a:hover
+ {
+    color: var(--cor-primaria-escura);
+    cursor: pointer;
+}
+
+
+.footer-conteudo-item-4-titulo
+
+{ 
+    color: var(--cor-branca);
+}
+
